@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:theme="@style/Theme.MaterialComponents.Light.NoActionBar.Bridge">
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:textSize="35dp"
+    android:text="Welcome to MPTI ;)"
+    android:textColor="@color/main"
+    android:textStyle="bold|italic" />
+    <ImageView
+        android:id="@+id/sinupActivity_imageview_profile"
+        android:src="@drawable/image_upload"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="55dp"
+        android:text="활동의 자유성을 위해\n닉네임은 ✨MBTI✨로 대신합니다"
+        android:textColor="#3F4045"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        android:hint="이메일 형식으로 적어주세요"
+        app:boxStrokeColor="#B3C4FF"
+        app:helperTextEnabled="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        app:endIconMode="clear_text"
+        app:hintTextColor="#81A5FF">
+
+        <EditText
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            android:textColor="#3F4045"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/signupActivity_email"
+            android:cursorVisible="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="#B3C4FF"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        app:hintTextColor="#81A5FF"
+        android:id="@+id/mbti"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:focusable="false"
+            android:textColor="#3F4045"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:cursorVisible="false"
+            android:text="여러분의 MBTI를 선택해주세요"
+            android:id="@+id/signupActivity_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="#B3C4FF"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        app:endIconMode="password_toggle"
+        app:startIconDrawable="@drawable/ic_baseline_vpn_key_24"
+        app:hintTextColor="#81A5FF"
+        android:layout_marginTop="10dp"
+        app:errorEnabled="true"
+        >
+
+        <EditText
+            android:singleLine="true"
+            android:textSize="15dp"
+            android:textColor="#3F4045"
+            android:textStyle="bold"
+            android:cursorVisible="false"
+            android:hint="비밀번호를 적어주세요"
+            android:paddingLeft="10dp"
+            android:id="@+id/signupActivity_password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:visibility="invisible"
+        android:text="회원가입"
+        android:background="@drawable/ic_left_bubble"
+        android:id="@+id/signupActivity_button_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/progress1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:indeterminateTint="#71BDFF"
+        android:backgroundTint="#FFFFFF"
+        android:progressBackgroundTint="#C2EEFF"
+        android:progressTint="@color/main"
+        android:visibility="invisible" />
+</LinearLayout>

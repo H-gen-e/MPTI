@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/account_background.xml" value="0.2125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/background_color.xml" value="0.3125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/bottom_ic_color.xml" value="0.3125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/buttom_send_backgournd.xml" value="0.3125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/button.xml" value="0.3475" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/button_ic_color.xml" value="0.3125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/circle.xml" value="0.324" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/edit_background.xml" value="0.324" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/edit_text.xml" value="0.22" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/fromleft.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic__account.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2195" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_baseline_arrow_upward_24.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2685" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.2484375" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.2565" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_baseline_insert_emoticon_24.xml" value="0.313" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_baseline_keyboard_arrow_up_24.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_baseline_photo_size_select_actual_24.xml" value="0.2640625" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2685" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.3125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.2685" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_left_bubble.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_message.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_message_send.xml" value="0.2935185185185185" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_mpti_logo.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_people.xml" value="0.3125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/ic_right_bubble.xml" value="0.30462962962962964" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/left_bubble.xml" value="0.324" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/progressbar_custom.xml" value="0.319" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/round.xml" value="0.32" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/round_bg.xml" value="0.32" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/send_background.xml" value="0.3125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/simple_bubble.xml" value="0.2565" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/drawable/top_bar.xml" value="0.2525" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/activity_message.xml" value="0.5" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/activity_test.xml" value="0.25" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/dialog_comment.xml" value="0.33" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/dialog_revoke.xml" value="0.5" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_account.xml" value="0.33" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_chat.xml" value="0.22" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_friendship_q01.xml" value="0.33" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_friendship_q02.xml" value="0.33" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_friendship_q03.xml" value="0.33" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_friendship_q04.xml" value="0.33" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_friendship_q05.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_friendship_q06.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_friendship_q07.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_friendship_q08.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_friendship_q09.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_friendship_q10.xml" value="0.33" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_friendship_q11.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_friendship_q12.xml" value="0.33" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_friendship_result.xml" value="0.33" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_love_q01.xml" value="0.33" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_love_q02.xml" value="0.3453125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_love_q03.xml" value="0.3453125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_love_q04.xml" value="0.25" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_love_q05.xml" value="0.3453125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_love_q06.xml" value="0.3453125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_love_q07.xml" value="0.3453125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_love_q08.xml" value="0.3453125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_love_q09.xml" value="0.3453125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_love_q10.xml" value="0.3453125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_love_q11.xml" value="0.3453125" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_love_q12.xml" value="0.25" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_love_result.xml" value="0.33" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_people.xml" value="0.25" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_result_friendship.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_work_q01.xml" value="0.25" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_work_q02.xml" value="0.32708333333333334" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_work_q03.xml" value="0.22" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_work_q04.xml" value="0.32708333333333334" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_work_q05.xml" value="0.32708333333333334" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_work_q06.xml" value="0.33" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_work_q07.xml" value="0.32708333333333334" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_work_q08.xml" value="0.32708333333333334" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_work_q09.xml" value="0.32708333333333334" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_work_q10.xml" value="0.32708333333333334" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_work_q11.xml" value="0.32708333333333334" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_work_q12.xml" value="0.32708333333333334" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/fragment_work_result.xml" value="0.18" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/item_chat.xml" value="0.22" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/item_friend.xml" value="0.22" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/item_message.xml" value="1.0" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/item_test.xml" value="0.25" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/pager_shop_news_image.xml" value="0.22" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/layout/test_image.xml" value="0.10648148148148148" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/menu/bottom_navigation_main.xml" value="0.5" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/menu/toolbar_menu.xml" value="0.25" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2475" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2475" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/xml/default_config.xml" value="0.2657407407407407" />
+        <entry key="..\:/Users/my_yo/AndroidStudioProjects/MPTI_APP/app/src/main/res/xml/searchable.xml" value="0.14074074074074075" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

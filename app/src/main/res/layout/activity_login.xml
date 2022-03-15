@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    android:theme="@style/Theme.MaterialComponents.Light.NoActionBar.Bridge">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mpti"
+        app:tint="@color/main" />
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        app:hintTextColor="#5C54D6"
+        app:startIconTint="#A5B4FF"
+        android:hint="Email *"
+        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        app:endIconMode="clear_text"
+        app:boxStrokeColor="#B3C4FF"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+         android:singleLine="true"
+            android:padding="10dp"
+         android:textStyle="bold"
+         android:textColor="#3F4045"
+         android:id="@+id/loginActivity_edittext_id"
+         android:cursorVisible="false"
+            android:textSize="15dp"
+         android:textColorHighlight="@color/main"
+         android:textColorHint="@color/main" android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:endIconMode="password_toggle"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        app:hintTextColor="#5C54D6"
+        android:layout_width="match_parent"
+        app:startIconTint="#A5B4FF"
+        app:boxStrokeColor="#B3C4FF"
+        app:startIconDrawable="@drawable/ic_baseline_vpn_key_24"
+        android:layout_height="wrap_content">
+     <EditText
+         android:hint="password *"
+         android:singleLine="true"
+         android:imeOptions="actionDone"
+         android:cursorVisible="false"
+         android:textStyle="bold"
+
+         android:textColorHint="@color/main"
+         android:textColor="#3F4045"
+         android:id="@+id/loginActivity_edittext_password"
+         android:textSize="15dp"
+         android:inputType="textPassword"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>
+
+ </com.google.android.material.textfield.TextInputLayout>
+    <Button
+
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Login"
+        android:background="@drawable/result_logo"
+        android:id="@+id/loginActivity_button_login"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="35dp"/>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="#B5B5B5"
+        />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#888888"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="3dp"
+        android:textStyle="bold"
+        android:text="회원가입"
+        android:background="@color/white"
+        android:id="@+id/loginActivity_button_signup"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <ProgressBar
+        android:id="@+id/login_progressBar"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:indeterminateTint="#71BDFF"
+        android:backgroundTint="#FFFFFF"
+        android:progressBackgroundTint="#C2EEFF"
+        android:progressTint="@color/main"
+        android:visibility="invisible" />
+
+
+</LinearLayout>

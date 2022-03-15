@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/your_profile"
+            app:tint="@color/main" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="4dp"
+            android:layout_marginTop="33dp"
+            android:layout_gravity="center"
+            android:id="@+id/AccountFragment_profile_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/mbti_result_logo"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Fragment_account_profile_mpti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MPTI"
+            android:textColor="#2E3073"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:layout_above="@+id/AccountFragment_profile_image"
+            />
+        <Button
+            android:id="@+id/accountFragment_button_mpti"
+            android:layout_marginLeft="6dp"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/AccountFragment_profile_image"
+            android:layout_gravity="center"
+            android:background="@drawable/edit_logo_blue"
+            android:gravity="center"
+            android:textColor="@color/grey"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textColor="#4F4F50"
+        android:padding="5dp"
+        android:id="@+id/state_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="상태메세지"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        />
+    <Button
+        android:id="@+id/accountFragment_butto_comment"
+        android:background="@drawable/edit_logo"
+        android:layout_marginLeft="5dp"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:textColor="@color/grey"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:id="@+id/friendship_result"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:background="@drawable/in_friendship"
+        android:textColor="#2E3073"
+
+        android:text="테스트 미완료"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="left">
+    <TextView
+
+        android:text="테스트 미완료"
+        android:background="@drawable/in_love"
+        android:textColor="#2E3073"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:id="@+id/love_result"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        />
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+    <TextView
+        android:text="테스트 미완료"
+        android:background="@drawable/in_work"
+        android:textColor="#2E3073"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:id="@+id/workship_result"
+        android:textStyle="bold"
+        android:textSize="17dp" />
+
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <Button
+            android:background="@drawable/logout_logo"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_gravity="center"
+            android:textColor="#515151"
+            android:textStyle="bold"
+            android:id="@+id/accountFragment_butto_logout"
+            android:layout_width="70dp"
+            android:layout_height="27dp"
+            android:layout_toRightOf="@+id/accountFragment_butto_comment"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/revoke_button"
+            android:id="@+id/revoke"
+            android:layout_gravity="center"
+            android:layout_width="70dp"
+            android:layout_height="27dp"
+   />
+
+</LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>
+
+
+

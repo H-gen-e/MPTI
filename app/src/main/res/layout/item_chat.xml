@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+<ImageView
+    android:padding="1dp"
+    android:background="@drawable/mbti_result_logo"
+    android:layout_margin="10dp"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="20dp"
+    android:id="@+id/chatitem_imageview"/>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/chatitem_textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(탈퇴한 사용자)"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+        <TextView
+            android:text="먼저 말을 걸어 즐거운 인연을 만들어보아요 :)"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:id="@+id/chatitem_chatitem_textview_lastMessage"
+            android:layout_below="@id/chatitem_textview_title"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/chatitem_textview_timestamp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="11dp"
+            android:text="2011.11.11 11:11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</LinearLayout>

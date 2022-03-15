@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="50dp">
+
+
+    <ImageView
+        android:padding="1dp"
+        android:background="@drawable/mbti_result_logo"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/frienditem_imageview"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/frienditem_textview"
+        android:text="탈퇴한 사용자"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/frienditem_textview_comment"
+            android:text="상태메세지"
+            android:textSize="13sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    </LinearLayout>
